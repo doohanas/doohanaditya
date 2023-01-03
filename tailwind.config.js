@@ -1,18 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "assets/**/*.{css}",
-    "components/**/*.{vue,js}",
-    "layouts/**/*.vue",
-    "pages/**/*.vue",
-    "plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}",
-  ],
+  content: [],
   theme: {
     extend: {
-      fontFamily: {
-        quicksand: ["Quicksand", "cursive"],
-        lora: ["Lora", "cursive"],
+      colors: {
+        white: "#FFFFFF",
+        black: "#424242",
+        gray: "#494949",
+        green: {
+          100: "#D2F6C5",
+          200: "#0FBF61",
+        },
+        purple: "#2D4CFF",
       },
     },
   },
