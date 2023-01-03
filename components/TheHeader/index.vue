@@ -1,7 +1,7 @@
 <template>
   <header>
     <TheContainer class="flex items-center justify-between">
-       <NuxtLink to="/">
+      <NuxtLink to="/">
         <img
           src="~/assets/images/logo.svg"
           alt="rs logo"
@@ -10,10 +10,11 @@
         />
       </NuxtLink>
       <nav class="hidden lg:block">
-         <ul class="flex items-center gap-[30px]">
+        <ul class="flex items-center gap-[30px]">
           <li
             v-for="link in navbarLinks"
             :key="link.id"
+            class="flex items-center gap-[30px]"
           >
             <NuxtLink :to="link.link">
               <p class="text-black">{{ link.title }}</p>
@@ -21,8 +22,8 @@
           </li>
         </ul>
       </nav>
-       <section class="block lg:hidden">
-         <BaseButton> Menu </BaseButton>
+      <section class="block lg:hidden">
+        <BaseButton> Menu </BaseButton>
       </section>
     </TheContainer>
   </header>
@@ -36,5 +37,4 @@ defineComponent({
 })
 
 const navbarLinks = navLinks()
-
 </script>
