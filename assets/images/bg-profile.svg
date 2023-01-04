@@ -1,0 +1,18 @@
+<svg width="428" height="523" viewBox="0 0 428 523" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_146_5)">
+<rect x="0.657189" y="-0.261452" width="244.127" height="275.177" transform="matrix(0.39587 -0.918307 0.918507 0.395404 41.3081 319.421)" stroke="black"/>
+<rect x="0.601668" y="-0.371921" width="244.102" height="275.205" transform="matrix(0.229993 -0.973192 0.973344 0.229349 54.2435 348.916)" stroke="black"/>
+<rect x="0.528432" y="-0.470241" width="244.072" height="275.239" transform="matrix(0.0585357 -0.998285 0.998328 0.0578033 71.9311 375.452)" stroke="black"/>
+<rect x="0.448723" y="-0.546818" width="244.043" height="275.271" transform="matrix(-0.0976997 -0.995216 0.995145 -0.0984206 91.5677 396.402)" stroke="black"/>
+<rect x="0.34008" y="-0.620207" width="244.012" height="275.306" transform="matrix(-0.279741 -0.960076 0.959901 -0.280339 118.713 416.903)" stroke="black"/>
+<rect x="0.247169" y="-0.662683" width="243.993" height="275.328" transform="matrix(-0.415193 -0.909733 0.909532 -0.415634 142.173 429.177)" stroke="black"/>
+<rect x="0.162522" y="-0.688296" width="243.98" height="275.342" transform="matrix(-0.525547 -0.850764 0.850591 -0.525829 163.706 436.978)" stroke="black"/>
+</g>
+<defs>
+<filter id="filter0_f_146_5" x="24.1238" y="74.1608" width="383.803" height="373.729" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5" result="effect1_foregroundBlur_146_5"/>
+</filter>
+</defs>
+</svg>
