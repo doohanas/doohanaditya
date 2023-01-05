@@ -29,12 +29,12 @@ export const NAVBAR_LINKS = [
 export const WORK_SERVICES = [
   {
     id: 1,
-    image: "/_nuxt/assets/images/frontend-engineer.svg",
+    image: "/images/frontend-engineer.svg",
     title: "Front End Development",
   },
   {
     id: 2,
-    image: "/_nuxt/assets/images/responsive-design.svg",
+    image: "/images/responsive-design.svg",
     title: "Responsive Design",
   },
 ]
