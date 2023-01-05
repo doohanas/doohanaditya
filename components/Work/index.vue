@@ -1,15 +1,17 @@
 <template>
-  <section>
+  <section class="flex min-h-[350px] flex-col gap-10">
     <h1
       class="text-center font-sans text-[40px] font-bold leading-[30px] text-green-200"
     >
       What I Do
     </h1>
-    <div class="py-10">
+    <div
+      class="grid w-full grid-cols-1 gap-10 lg:mx-auto lg:w-max lg:grid-cols-2"
+    >
       <div
         v-for="service in work.workServices"
         :key="service.id"
-        class="grid grid-cols-2 justify-center gap-5 pb-10"
+        class="grid grid-cols-[120px,minmax(0px,300px)] justify-center gap-5 md:gap-10 lg:w-fit lg:grid-cols-[120px,1fr]"
       >
         <div
           class="h-[120px] w-[120px] rounded-xl shadow-lg shadow-black"
@@ -26,7 +28,9 @@
             class="relative mx-auto h-full"
           />
         </div>
-        <h2 class="font-sans text-[16px] font-medium leading-[30px] text-black">
+        <h2
+          class="pt-4 font-sans text-[16px] font-medium leading-[30px] text-black md:text-2xl md:leading-[46px]"
+        >
           <span> {{ service.id }} </span><br />
           {{ service.title }}
         </h2>
