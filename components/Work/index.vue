@@ -12,7 +12,11 @@
         class="grid grid-cols-2 justify-center gap-5 pb-10"
       >
         <div
-          class="h-[120px] w-[120px] rounded-xl bg-green-100 shadow-lg shadow-black"
+          class="h-[120px] w-[120px] rounded-xl shadow-lg shadow-black"
+          :class="{
+            'bg-green-100': service.id === 1,
+            'bg-purple': service.id === 2,
+          }"
         >
           <img
             :src="service.image"
