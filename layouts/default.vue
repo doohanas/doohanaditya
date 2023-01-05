@@ -5,5 +5,6 @@
       <TheHeroBanner />
     </div>
     <slot />
+    <TheFooter />
   </div>
 </template>

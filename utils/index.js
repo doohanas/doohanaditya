@@ -62,3 +62,34 @@ export const PROJECT_LIST = [
     altText: "Website Create Playlist Spotify",
   },
 ]
+
+export const SOCIAL_MEDIAS = [
+  {
+    id: 1,
+    socialMedia: "twitter",
+    image: "/icons/twitter.svg",
+    link: "https://twitter.com/Doohanas",
+    target: "_blank",
+  },
+  {
+    id: 2,
+    socialMedia: "linkedin",
+    image: "/icons/linkedin.svg",
+    link: "https://www.linkedin.com/in/doohan-as/",
+    target: "_blank",
+  },
+  {
+    id: 3,
+    socialMedia: "github",
+    image: "/icons/github.svg",
+    link: "https://github.com/doohanas",
+    target: "_blank",
+  },
+  {
+    id: 4,
+    socialMedia: "medium",
+    image: "/icons/medium.svg",
+    link: "https://medium.com/@doohan_as",
+    target: "_blank",
+  },
+]
