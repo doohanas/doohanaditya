@@ -82,6 +82,10 @@ export default defineNuxtConfig({
           content: "/iamges/profile-picture.png",
         },
         {
+          name: "twitter:url",
+          content: "https://doohanadityas.netlify.app/",
+        },
+        {
           name: "twitter:creator",
           content: "@doohanas",
         },
