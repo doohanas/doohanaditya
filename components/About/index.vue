@@ -31,6 +31,16 @@
         >
           Here are a few technologies I’ve been working with recently:
         </p>
+        <div class="flex w-full flex-row flex-wrap">
+          <img
+            v-for="item in techStack.techStacks"
+            :key="item.id"
+            :src="item.image"
+            :alt="item.altText"
+            width="100"
+            height="100"
+          />
+        </div>
       </div>
       <div class="relative mt-10 max-w-[420px] lg:w-[576px]">
         <hr
@@ -50,7 +60,10 @@
 </template>
 
 <script setup lang="ts">
+import { TECH_STACKS } from "~~/utils"
 defineComponent({
   name: "About",
 })
+
+const techStack = reactive({ techStacks: [...TECH_STACKS] })
 </script>

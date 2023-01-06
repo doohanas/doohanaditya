@@ -93,3 +93,36 @@ export const SOCIAL_MEDIAS = [
     target: "_blank",
   },
 ]
+
+export const TECH_STACKS = [
+  {
+    id: 1,
+    image: "/images/html.png",
+    altText: "html",
+  },
+  {
+    id: 2,
+    image: "/images/css.png",
+    altText: "css",
+  },
+  {
+    id: 3,
+    image: "/images/javascript.png",
+    altText: "javascript",
+  },
+  {
+    id: 4,
+    image: "/images/vuejs.png",
+    altText: "vuejs",
+  },
+  {
+    id: 5,
+    image: "/images/nuxt.png",
+    altText: "nuxt",
+  },
+  {
+    id: 5,
+    image: "/images/tailwind.png",
+    altText: "tailwind",
+  },
+]
