@@ -31,7 +31,7 @@
         >
           Here are a few technologies I’ve been working with recently:
         </p>
-        <div class="flex w-full flex-row flex-wrap">
+        <div class="flex w-full flex-row flex-wrap gap-4">
           <img
             v-for="item in techStack.techStacks"
             :key="item.id"
