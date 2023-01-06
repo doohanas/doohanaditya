@@ -1,5 +1,5 @@
 <template>
-  <section class="flex min-h-[350px] flex-col gap-10">
+  <section id="work" class="flex min-h-[350px] flex-col gap-10">
     <h1
       class="text-center font-sans text-[40px] font-bold leading-[30px] text-green-200"
     >

@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-[529px] w-full md:min-h-[256px]">
+  <section id="home" class="min-h-[529px] w-full md:min-h-[256px]">
     <TheContainer class="flex flex-col gap-6 md:flex-row-reverse">
       <div class="w-full items-center">
         <img

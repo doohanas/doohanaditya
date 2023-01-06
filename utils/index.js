@@ -2,27 +2,27 @@ export const NAVBAR_LINKS = [
   {
     id: 1,
     title: "Home",
-    link: "/home",
+    link: "#home",
   },
   {
     id: 2,
     title: "About",
-    link: "/about",
+    link: "#about",
   },
   {
     id: 3,
-    title: "Service",
-    link: "/service",
+    title: "Work",
+    link: "#work",
   },
   {
     id: 4,
     title: "Project",
-    link: "/project",
+    link: "#project",
   },
   {
     id: 5,
-    title: "Resume",
-    link: "/resume",
+    title: "Contact Us",
+    link: "#contact-us",
   },
 ]
 

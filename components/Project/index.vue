@@ -1,5 +1,5 @@
 <template>
-  <section class="grid min-h-[500px] grid-cols-1 gap-5 md:gap-16">
+  <section id="project" class="grid min-h-[500px] grid-cols-1 gap-5 md:gap-16">
     <h1
       class="text-center font-sans text-[40px] font-bold leading-[56px] text-green-200"
     >

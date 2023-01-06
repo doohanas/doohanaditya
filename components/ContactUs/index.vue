@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="contact-us">
     <picture>
       <source type="image/webp" srcset="~/assets/images/contact-me.webp" />
       <img
