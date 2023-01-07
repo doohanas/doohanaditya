@@ -4,6 +4,7 @@
       <About />
       <Work />
       <Project />
+      <ContactUs />
     </TheContainer>
   </main>
 </template>
