@@ -7,6 +7,7 @@
           alt="pria berbaju biru menyilangkan tangan"
           width="490"
           height="509"
+          loading="eager"
           class="border-1 mx-auto w-[250px] rounded-full bg-gradient-radial from-[#8360c3] to-[#2ebf91] lg:h-fit lg:w-[490px]"
         />
       </div>
