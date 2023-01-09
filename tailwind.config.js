@@ -13,6 +13,9 @@ module.exports = {
         },
         purple: "#AAC4FF",
       },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+      },
     },
   },
   plugins: [],
