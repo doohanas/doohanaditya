@@ -43,7 +43,7 @@ export default defineNuxtConfig({
         {
           hid: "og:image",
           property: "og:image",
-          content: "/images/profile-picture.png",
+          content: "/profile-picture.png",
         },
         {
           hid: "og:image:type",
@@ -79,7 +79,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "/images/profile-picture.png",
+          content: "/profile-picture.png",
         },
         {
           name: "twitter:url",
