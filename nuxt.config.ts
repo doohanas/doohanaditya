@@ -67,7 +67,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:card",
-          content: "Frontend_Engineer_based_in_Indonesia",
+          content: "summary",
         },
         {
           name: "twitter:title",
