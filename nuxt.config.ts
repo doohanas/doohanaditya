@@ -53,12 +53,12 @@ export default defineNuxtConfig({
         {
           hid: "og:image:width",
           property: "og:image:width",
-          content: "400",
+          content: "490",
         },
         {
           hid: "og:image:height",
           property: "og:image:height",
-          content: "300",
+          content: "509",
         },
         {
           hid: "og:image:alt",
