@@ -79,7 +79,7 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content: "/iamges/profile-picture.png",
+          content: "/images/profile-picture.png",
         },
         {
           name: "twitter:url",
