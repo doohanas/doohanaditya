@@ -3,7 +3,7 @@
     <h1
       class="text-center font-sans text-[40px] font-bold leading-[56px] text-green-200"
     >
-      Project <span>My Recent Works</span>
+      Project <span class="block">My Recent Works</span>
     </h1>
     <div
       class="mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:gap-8 lg:px-14"
