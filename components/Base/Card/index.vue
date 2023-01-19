@@ -1,6 +1,6 @@
 <template>
   <article
-    class="mb-10 min-h-[300px] max-w-[545px] rounded-[36px] px-6 hover:scale-[1.05] hover:shadow-xl hover:duration-300 hover:ease-in"
+    class="mb-10 max-w-[545px] rounded-[36px] px-6 pb-4 hover:scale-[1.05] hover:shadow-xl hover:duration-300 hover:ease-in lg:pb-10"
     :class="{
       'bg-yellow-200 hover:shadow-yellow-200': card.id === 1,
       'bg-purple hover:shadow-blue-200': card.id === 2,
@@ -12,9 +12,9 @@
     >
       {{ card.title }}
     </h2>
-    <a class="h-full w-full" :href="card.link" target="_blank">
+    <a class="w-full" :href="card.link" target="_blank">
       <img
-        class="rounded-[28px]"
+        class="h-full rounded-[28px] bg-cover"
         width="560"
         height="300"
         :src="card.image"
