@@ -21,8 +21,8 @@ export const NAVBAR_LINKS = [
   },
   {
     id: 5,
-    title: "Contact Us",
-    link: "#contact-us",
+    title: "Contact me",
+    link: "#contact-me",
   },
 ]
 

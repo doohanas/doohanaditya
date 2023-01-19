@@ -1,5 +1,5 @@
 <template>
-  <section id="contact-us" class="min-h-[250px] w-full">
+  <section id="contact-me" class="min-h-[250px] w-full">
     <article
       class="mx-auto grid max-w-[1024px] grid-cols-1 justify-items-center gap-4 rounded-3xl bg-blue-200 p-4 shadow-md shadow-blue-100"
     >
@@ -47,7 +47,7 @@
 
 <script setup lang="ts">
 defineComponent({
-  name: "ContactUs",
+  name: "ContactMe",
 })
 const config = useRuntimeConfig()
 const linkWa = `https://wa.me/${config.waNumber}?text=${config.waText}`
