@@ -39,5 +39,5 @@ defineComponent({
   name: "TheHeader",
 })
 
-const navbarLinks = navLinks()
+const navbarLinks = useNavlinks()
 </script>
