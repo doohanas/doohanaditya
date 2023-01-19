@@ -1,12 +1,12 @@
 <template>
-  <section id="work" class="flex min-h-[350px] flex-col gap-10">
+  <section id="work" class="flex min-h-[350px] flex-col gap-10 lg:gap-[50px]">
     <h1
       class="text-center font-sans text-[40px] font-bold leading-[30px] text-green-200"
     >
       What I Do
     </h1>
     <div
-      class="grid w-full grid-cols-1 gap-10 lg:mx-auto lg:w-max lg:grid-cols-2"
+      class="grid w-full grid-cols-1 gap-10 pb-16 lg:mx-auto lg:w-max lg:grid-cols-2"
     >
       <div
         v-for="service in work.workServices"
