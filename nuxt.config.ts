@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   app: {
     head: {
+      script: [
+        {
+          src: `https://code.responsivevoice.org/responsivevoice.js?key=${process.env.KEY_RESPONSIVE_VOICE}`,
+        },
+      ],
       htmlAttrs: {
         lang: "en",
       },
