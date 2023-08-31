@@ -102,6 +102,8 @@ export default defineNuxtConfig({
     public: {
       waNumber: process.env.WHATSAPP_NUMBER,
       waText: process.env.WHATSAPP_TEXT,
+      posthogPublicKey: process.env.POSTHOG_PUBLIC_KEY,
+      posthogHost: process.env.POSTHOG_HOST,
     },
   },
 })
