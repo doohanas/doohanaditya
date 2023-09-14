@@ -8,6 +8,10 @@ export default defineNuxtConfig({
         {
           src: `https://code.responsivevoice.org/responsivevoice.js?key=${process.env.KEY_RESPONSIVE_VOICE}`,
         },
+        {
+          src: "https://website-widgets.pages.dev/dist/sienna.min.js",
+          defer: true,
+        },
       ],
       htmlAttrs: {
         lang: "en",
